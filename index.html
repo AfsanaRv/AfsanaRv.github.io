@@ -3,14 +3,278 @@
   <head>
     <meta charset="utf-8">
     <title>Afsana Reevu</title>
+
+<style media="screen">
+
+body{
+  font: 300 18px/1.4 "sofia-pro", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02em;
+  color: #000;
+}
+
+.myname{
+  position: fixed;
+  top: 35px;
+  left: 25px;
+  color: #006600;
+  font-weight: bold;
+  font-size: 20px;
+  overflow: hidden;
+  letter-spacing: 5px;
+  width: 23px;
+  transition: width 1s;
+}
+
+.myname:hover{
+  width: 300px;
+
+
+}
+
+
+.container{
+  min-width: 100%;
+  flex: 1 1 100%;
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  display: block;
+  position: relative;
+}
+
+
+h1{
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  word-wrap: break-word;
+  color: #004d00;
+}
+
+h1,h2,h3,h4,h5{
+  line-height: 1em;
+  margin: 0;
+}
+
+.quote{
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-align: left;
+  padding: 1em 0;
+}
+
+
+p{
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0;
+  line-height: 1.8em;
+  opacity: 0.8;
+  display: block;
+}
+
+a{
+  display: block;
+  color: #000;
+  opacity: 0.5;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.learn{
+  position: absolute;
+  width: 0;
+  height: 1em;
+  margin: 0;
+  left: 5.5vw;
+  overflow: visible;
+  white-space: nowrap;
+  bottom: 20%;
+  font-size: 1em;
+  opacity: 0.3;
+  transform: rotate(90deg);
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
+
+
+.arrow{
+  display: inline-block;
+}
+
+.mainc{
+  margin: 200px 20px;
+}
+
+.me{
+  position:static;
+  width: 550px;
+  float: right;
+  margin: 0;
+}
+
+img{
+  width: 550px;
+
+}
+
+
+
+.about{
+  padding: 10em;
+}
+
+.blocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  justify-content: space-between;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.block .half{
+  min-width: 50%;
+  flex: 1 1 50%;
+}
+
+.large{
+  font-weight: 700;
+  font-size: 4em;
+  margin-bottom: 0.3em;
+}
+
+.green{
+  color: #006600;
+}
+
+.block.align{
+  padding: 2em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.block{
+  min-width: 0;
+  flex: 1;
+  position: relative;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+}
+
+.text-align{
+  text-align: center;
+}
+
+</style>
+
   </head>
+
   <body>
 
+<div class="container">
 
-    <h1>welcome</h1>
+  <div class="me">
+    <img src="images/me.jpg" alt="me">
+  </div>
+
+
+
+<div class="content">
+
+
+
+
+<div class="myname">
+
+<h2>Reevu</h2>
+
+</div>
+
+<div class="mainc">
+
+<h1>Afsana Reevu Chowdhury</h1>
+
+<h2 class="quote">
+  Web Designer,
+  <br>
+  Writer,
+  <br>
+  Creative thinker,
+  <br>
+  and
+  <br>
+  Dreamer..
+
+</h2>
+
+
+
+
+<p>
+  reevuafsana@gmail.com
+</p>
+
+
+<a href="https://twitter.com/AfsanaReevu" target="_blank">Twitter: @Afsana_Reevu</a>
+<a href="https://www.facebook.com/afsana.r.chowdhury?fref=ts" target="_blank">Facebook: Afsana Reevu Chowdhury</a>
+</div>
+</div>
+</div>
+
+<span class="learn">
+
+ <span>Learn More---</span>
+ <span class="arrow"></span>
+
+</span>
+
+
+
+<div class="about">
+  <div class="content">
+
+
+  <div class="blocks no-padding">
+    <div class="block half">
+
+
+    <h4 class="green large">Hello</h4>
 
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      My name is Afsana Reevu Chowdhury and I am a web designer, writer and creative thinker and also a dreamer! I'm from Dhaka, Bangladesh. I'm currently learning web design.
     </p>
+</div>
+
+<div class="block half blocks">
+  <div class="block align">
+    <div class="content text-align">
+      <a class="green" target="_blank" href="#"> Download my resume.</a>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+  </div>
+
+</div>
+
+
+
   </body>
 </html>
